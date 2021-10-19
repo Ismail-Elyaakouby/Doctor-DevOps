@@ -68,7 +68,7 @@ SmaRed_t2() {
     echo -en "\t\t${Red} $1 ${NC}"
 }
 SmaRed_t3() {
-    echo -en "\t\t\t${Red} $1  ${NC}"
+    echo -en "\n\t\t\t${Red} $1  ${NC}"
 }
 SmaRed_t4() {
     echo -en "\t\t\t\t${Red} $1 ${NC}"
