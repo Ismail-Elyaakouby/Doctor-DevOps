@@ -189,9 +189,6 @@ Winw_t4() {
   nbr_rdm="$2"
   echo -en "\t\t\t\t\033[0;9${nbr_rdm}m $msg ${NC}\n"
 }
-
-echo -e " <- \ 033[0;${x}m ismail \ 033[0m -> \033[0;${x}m ismail \033[0m"
-
 function K8sError {
     echo -e "${Red} $1 ${NC}"
 }
