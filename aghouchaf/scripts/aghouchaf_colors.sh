@@ -1,8 +1,10 @@
 #!/bin/bash
 # Colors
-RED='\033[0;31m'
+#RED='\033[0;31m'
+RED='\033[0;91m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
+AWRAGH='\033[0;93m'
 BLUE='\033[0;36m'
 PLAIN='\033[0m'
 bold=$(tput bold)
@@ -136,6 +138,22 @@ SmaGreenLight_t4() {
 
 SmaGreenLight_t5() {
     echo -en "\t\t\t\t\t${GreenLight} $1 ${NC}\n"
+}
+
+SmaAwragh_t0() {
+    echo -en "${AWRAGH} $1 ${NC}\n"
+}
+SmaAwragh_t1() {
+    echo -en "\t${AWRAGH} $1 ${NC}\n"
+}
+SmaAwragh_t2() {
+    echo -en "\t\t${AWRAGH} $1 ${NC}\n"
+}
+SmaAwragh_t3() {
+    echo -en "\t\t\t${AWRAGH} $1 ${NC}\n"
+}
+SmaAwragh_t4() {
+    echo -en "\t\t\t\t${AWRAGH} $1 ${NC}\n"
 }
 
 Error() {
