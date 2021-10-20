@@ -141,19 +141,19 @@ SmaGreenLight_t5() {
 }
 
 SmaAwragh_t0() {
-    echo -en "${AWRAGH} $1 ${NC}"
+    echo -e "${AWRAGH} $1 ${NC}"
 }
 SmaAwragh_t1() {
-    echo -en "\t${AWRAGH} $1 ${NC}"
+    echo -e "\t${AWRAGH} $1 ${NC}"
 }
 SmaAwragh_t2() {
-    echo -en "\t\t${AWRAGH} $1 ${NC}"
+    echo -e "\t\t${AWRAGH} $1 ${NC}"
 }
 SmaAwragh_t3() {
-    echo -en "\t\t\t${AWRAGH} $1 ${NC}"
+    echo -e "\t\t\t${AWRAGH} $1 ${NC}"
 }
 SmaAwragh_t4() {
-    echo -en "\t\t\t\t${AWRAGH} $1 ${NC}"
+    echo -e "\t\t\t\t${AWRAGH} $1 ${NC}"
 }
 
 Error() {
