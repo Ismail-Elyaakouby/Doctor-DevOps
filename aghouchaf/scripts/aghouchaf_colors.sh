@@ -141,19 +141,19 @@ SmaGreenLight_t5() {
 }
 
 SmaAwragh_t0() {
-    echo -en "${AWRAGH} $1 ${NC}"
+    echo -en "${AWRAGH} $1 ${NC}\n"
 }
 SmaAwragh_t1() {
-    echo -en "\t${AWRAGH} $1 ${NC}"
+    echo -en "\t${AWRAGH} $1 ${NC}\n"
 }
 SmaAwragh_t2() {
-    echo -en "\t\t${AWRAGH} $1 ${NC}"
+    echo -en "\t\t${AWRAGH} $1 ${NC}\n"
 }
 SmaAwragh_t3() {
-    echo -en "\t\t\t${AWRAGH} $1 ${NC}"
+    echo -en "\t\t\t${AWRAGH} $1 ${NC}\n"
 }
 SmaAwragh_t4() {
-    echo -en "\t\t\t\t${AWRAGH} $1 ${NC}"
+    echo -en "\t\t\t\t${AWRAGH} $1 ${NC}\n"
 }
 
 Error() {
@@ -187,7 +187,7 @@ Info_t4() {
 Winw_t4() {
   msg="$1"
   nbr_rdm="$2"
-  echo -en "\t\t\t\t\033[0;9${nbr_rdm}m $msg ${NC}"
+  echo -en "\t\t\t\t\033[0;9${nbr_rdm}m $msg ${NC}\n"
 }
 
 echo -e " <- \ 033[0;${x}m ismail \ 033[0m -> \033[0;${x}m ismail \033[0m"
