@@ -1,7 +1,7 @@
 #!/bin/bash
 # Colors
-#RED='\033[0;31m'
-RED='\033[0;91m'
+RED='\033[0;31m'
+#RED='\033[0;91m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 AWRAGH='\033[0;93m'
