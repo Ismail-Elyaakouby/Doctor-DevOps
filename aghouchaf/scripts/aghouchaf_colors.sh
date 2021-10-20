@@ -187,7 +187,7 @@ Info_t4() {
 Winw_t4() {
   msg="$1"
   nbr_rdm="$2"
-  echo -en "\t\t\t\t\033[0;${nbr_rdm}m $msg ${NC}"
+  echo -en "\t\t\t\t\033[0;9${nbr_rdm}m $msg ${NC}"
 }
 
 echo -e " <- \ 033[0;${x}m ismail \ 033[0m -> \033[0;${x}m ismail \033[0m"
