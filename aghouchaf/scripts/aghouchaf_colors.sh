@@ -184,6 +184,14 @@ Info_t4() {
   echo -en "\t\t\t\t\t${Cyan} $1 ${NC}"
 }
 
+Winw_t4() {
+  msg="$1"
+  nbr_rdm="$2"
+  echo -en "\t\t\t\t\033[0;${nbr_rdm}m $msg ${NC}"
+}
+
+echo -e " <- \ 033[0;${x}m ismail \ 033[0m -> \033[0;${x}m ismail \033[0m"
+
 function K8sError {
     echo -e "${Red} $1 ${NC}"
 }
