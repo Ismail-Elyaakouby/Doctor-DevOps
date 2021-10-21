@@ -1,6 +1,7 @@
 #!/bin/bash
 # Colors
 RED='\033[0;31m'
+RED2='\033[0;91m'
 #RED='\033[0;91m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
@@ -77,6 +78,24 @@ SmaRed_t4() {
 }
 SmaRed_t5() {
     echo -en "\n\t\t\t\t${Red} $1 ${NC}"
+}
+SmaRed_t0() {
+    echo -en "${Red2} $1 ${NC}"
+}
+SmaRed_t1() {
+    echo -en "\n\t${Red2} $1 ${NC}"
+}
+SmaRed_t2() {
+    echo -en "\t\t${Red2} $1 ${NC}"
+}
+SmaRed_t3() {
+    echo -en "\n\t\t\t${Red2} $1  ${NC}"
+}
+SmaRed_t4() {
+    echo -en "\t\t\t\t${Red2} $1 ${NC}"
+}
+SmaRed_t5() {
+    echo -en "\n\t\t\t\t${Red2} $1 ${NC}"
 }
 SmaRed1_t1() {
      echo -en "\t\e[38:2::240:143:104m $1 \e[39m"
