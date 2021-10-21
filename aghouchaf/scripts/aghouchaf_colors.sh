@@ -79,22 +79,22 @@ SmaRed_t4() {
 SmaRed_t5() {
     echo -en "\n\t\t\t\t${Red} $1 ${NC}"
 }
-SmaRed_t0() {
+SmaRed2_t0() {
     echo -en "${Red2} $1 ${NC}"
 }
-SmaRed_t1() {
+SmaRed2_t1() {
     echo -en "\n\t${Red2} $1 ${NC}"
 }
-SmaRed_t2() {
+SmaRed2_t2() {
     echo -en "\t\t${Red2} $1 ${NC}"
 }
-SmaRed_t3() {
+SmaRed2_t3() {
     echo -en "\n\t\t\t${Red2} $1  ${NC}"
 }
-SmaRed_t4() {
+SmaRed2_t4() {
     echo -en "\t\t\t\t${Red2} $1 ${NC}"
 }
-SmaRed_t5() {
+SmaRed2_t5() {
     echo -en "\n\t\t\t\t${Red2} $1 ${NC}"
 }
 SmaRed1_t1() {
