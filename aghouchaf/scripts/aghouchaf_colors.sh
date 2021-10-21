@@ -46,19 +46,19 @@ SmaBlue_t4() {
 }
 
 SmaOrange_t0() {
-    echo -en "${Orange} $1 ${NC}"
+    echo -en "${Orange} $1 ${NC}\n"
 }
 SmaOrange_t2() {
-    echo -en "\t${Orange} $1 ${NC}"
+    echo -en "\t${Orange} $1 ${NC}\n"
 }
 SmaOrange_t3() {
-    echo -en "\t\t\t${Orange} $1 ${NC}"
+    echo -en "\t\t\t${Orange} $1 ${NC}\n"
 }
 SmaOrange_t4() {
-    echo -en "\t\t\t\t${Orange} $1 ${NC}"
+    echo -en "\t\t\t\t${Orange} $1 ${NC}\n"
 }
 SmaOrange_t5() {
-    echo -en "\t\t\t\t\t${Orange} $1 ${NC}"
+    echo -en "\t\t\t\t\t${Orange} $1 ${NC}\n"
 }
 
 SmaRed_t0() {
