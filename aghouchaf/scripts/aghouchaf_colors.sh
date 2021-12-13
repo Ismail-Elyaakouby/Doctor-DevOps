@@ -65,8 +65,11 @@ SmaOrange_t5() {
 SmaAkhnanas_t0() {
     echo -en "${akhnanas} $1 ${NC}\n"
 }
-SmaAkhnanas_t2() {
+SmaAkhnanas_t1() {
     echo -en "\t${akhnanas} $1 ${NC}\n"
+}
+SmaAkhnanas_t2() {
+    echo -en "\t\t${akhnanas} $1 ${NC}\n"
 }
 SmaAkhnanas_t3() {
     echo -en "\t\t\t${akhnanas} $1 ${NC}\n"
