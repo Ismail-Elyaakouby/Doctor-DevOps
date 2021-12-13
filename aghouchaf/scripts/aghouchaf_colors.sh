@@ -10,6 +10,7 @@ BLUE='\033[0;36m'
 PLAIN='\033[0m'
 bold=$(tput bold)
 normal=$(tput sgr0)
+akhnanas='\033[0;11m'
 
 Black='\033[0;30m'
 Blue='\033[0;34m'
@@ -59,6 +60,22 @@ SmaOrange_t4() {
 }
 SmaOrange_t5() {
     echo -en "\t\t\t\t\t${Orange} $1 ${NC}\n"
+}
+
+SmaAkhnanas_t0() {
+    echo -en "${akhnanas} $1 ${NC}\n"
+}
+SmaAkhnanas_t2() {
+    echo -en "\t${akhnanas} $1 ${NC}\n"
+}
+SmaAkhnanas_t3() {
+    echo -en "\t\t\t${akhnanas} $1 ${NC}\n"
+}
+SmaAkhnanas_t4() {
+    echo -en "\t\t\t\t${akhnanas} $1 ${NC}\n"
+}
+SmaAkhnanas_t5() {
+    echo -en "\t\t\t\t\t${akhnanas} $1 ${NC}\n"
 }
 
 SmaRed_t0() {
