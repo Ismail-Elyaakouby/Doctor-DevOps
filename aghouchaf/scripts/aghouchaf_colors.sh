@@ -189,7 +189,7 @@ SmaAwragh_t2() {
     echo -e "\t\t${AWRAGH} $1 ${NC}"
 }
 SmaAwragh_t3() {
-    echo -e "\t\t\t${AWRAGH} $1 ${NC}"
+    echo -en "\n\t\t\t${AWRAGH} $1  ${NC}"
 }
 SmaAwragh_t4() {
     echo -e "\t\t\t\t${AWRAGH} $1 ${NC}"
